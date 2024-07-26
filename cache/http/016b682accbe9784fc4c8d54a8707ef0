@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 1588
+Audit-Id: 7eb3b49b-24dd-4690-9692-0f206572f60d
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 23 Jul 2024 05:40:55 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 22afa4d6-32aa-4766-b6ca-fe3c92dd8dda
+X-Kubernetes-Pf-Prioritylevel-Uid: 5bfa8709-8dda-4ebc-8b15-754396a81247
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"group.keycloak.crossplane.io/v1alpha1","resources":[{"name":"memberships","singularName":"memberships","namespaced":false,"kind":"Memberships","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","managed","keycloak"],"storageVersionHash":"Xq0azQh3TxY="},{"name":"memberships/status","singularName":"","namespaced":false,"kind":"Memberships","verbs":["get","patch","update"]},{"name":"groups","singularName":"group","namespaced":false,"kind":"Group","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","managed","keycloak"],"storageVersionHash":"Ysm3/Q7waFQ="},{"name":"groups/status","singularName":"","namespaced":false,"kind":"Group","verbs":["get","patch","update"]},{"name":"roles","singularName":"roles","namespaced":false,"kind":"Roles","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","managed","keycloak"],"storageVersionHash":"0tyEXLYuQ5Y="},{"name":"roles/status","singularName":"","namespaced":false,"kind":"Roles","verbs":["get","patch","update"]},{"name":"permissions","singularName":"permissions","namespaced":false,"kind":"Permissions","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","managed","keycloak"],"storageVersionHash":"eeglOESp0hY="},{"name":"permissions/status","singularName":"","namespaced":false,"kind":"Permissions","verbs":["get","patch","update"]}]}

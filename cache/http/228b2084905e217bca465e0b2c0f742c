@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 863
+Audit-Id: 65ca221e-ffcc-4e80-8b2a-37df78fa66f7
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 24 Jul 2024 09:05:16 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 22afa4d6-32aa-4766-b6ca-fe3c92dd8dda
+X-Kubernetes-Pf-Prioritylevel-Uid: 5bfa8709-8dda-4ebc-8b15-754396a81247
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"defaults.keycloak.crossplane.io/v1alpha1","resources":[{"name":"roles","singularName":"roles","namespaced":false,"kind":"Roles","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","managed","keycloak"],"storageVersionHash":"OtFlBAzLokY="},{"name":"roles/status","singularName":"","namespaced":false,"kind":"Roles","verbs":["get","patch","update"]},{"name":"defaultgroups","singularName":"defaultgroups","namespaced":false,"kind":"DefaultGroups","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","managed","keycloak"],"storageVersionHash":"qpuGpVhkp9Y="},{"name":"defaultgroups/status","singularName":"","namespaced":false,"kind":"DefaultGroups","verbs":["get","patch","update"]}]}

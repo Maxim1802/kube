@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 1094
+Audit-Id: 731a028a-ad43-44f8-8295-295226256a17
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Fri, 21 Jun 2024 05:40:43 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 42a1de80-73c4-4def-ab3a-2b9b0149e1a1
+X-Kubernetes-Pf-Prioritylevel-Uid: 62d2cd26-f2a7-47b7-9a8b-8b492399dda9
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"monitoring.coreos.com/v1alpha1","resources":[{"name":"scrapeconfigs","singularName":"scrapeconfig","namespaced":true,"kind":"ScrapeConfig","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["scfg"],"categories":["prometheus-operator"],"storageVersionHash":"kAKYOPsAdCU="},{"name":"prometheusagents","singularName":"prometheusagent","namespaced":true,"kind":"PrometheusAgent","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["promagent"],"categories":["prometheus-operator"],"storageVersionHash":"lATxwg5UEm8="},{"name":"prometheusagents/status","singularName":"","namespaced":true,"kind":"PrometheusAgent","verbs":["get","patch","update"]},{"name":"alertmanagerconfigs","singularName":"alertmanagerconfig","namespaced":true,"kind":"AlertmanagerConfig","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["amcfg"],"categories":["prometheus-operator"],"storageVersionHash":"95DNJ6wsUCg="}]}

@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 541
+Audit-Id: 66691c9e-0234-4aac-8a7b-61040299c190
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Mon, 17 Jun 2024 08:03:54 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 42a1de80-73c4-4def-ab3a-2b9b0149e1a1
+X-Kubernetes-Pf-Prioritylevel-Uid: 62d2cd26-f2a7-47b7-9a8b-8b492399dda9
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"apiextensions.crossplane.io/v1beta1","resources":[{"name":"compositionrevisions","singularName":"compositionrevision","namespaced":false,"kind":"CompositionRevision","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["comprev"],"categories":["crossplane"],"storageVersionHash":"tg1R5YBW9q0="},{"name":"compositionrevisions/status","singularName":"","namespaced":false,"kind":"CompositionRevision","verbs":["get","patch","update"]}]}

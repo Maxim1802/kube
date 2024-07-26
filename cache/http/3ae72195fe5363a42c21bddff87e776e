@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 523
+Audit-Id: b0acb0c3-0c7e-406e-ac84-5eba7fa585f1
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 23 Jul 2024 05:40:55 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 22afa4d6-32aa-4766-b6ca-fe3c92dd8dda
+X-Kubernetes-Pf-Prioritylevel-Uid: 5bfa8709-8dda-4ebc-8b15-754396a81247
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"oidc.keycloak.crossplane.io/v1alpha1","resources":[{"name":"identityproviders","singularName":"identityprovider","namespaced":false,"kind":"IdentityProvider","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","managed","keycloak"],"storageVersionHash":"HmZueIolCiQ="},{"name":"identityproviders/status","singularName":"","namespaced":false,"kind":"IdentityProvider","verbs":["get","patch","update"]}]}

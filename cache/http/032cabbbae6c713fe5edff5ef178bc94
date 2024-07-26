@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 796
+Audit-Id: 46eb89db-89ec-4815-bbb3-528071d55a4f
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Thu, 20 Jun 2024 04:22:19 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 42a1de80-73c4-4def-ab3a-2b9b0149e1a1
+X-Kubernetes-Pf-Prioritylevel-Uid: 62d2cd26-f2a7-47b7-9a8b-8b492399dda9
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"keycloak.crossplane.io/v1beta1","resources":[{"name":"providerconfigs","singularName":"providerconfig","namespaced":false,"kind":"ProviderConfig","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","provider","keycloak"],"storageVersionHash":"iZaw4ooe6oM="},{"name":"providerconfigs/status","singularName":"","namespaced":false,"kind":"ProviderConfig","verbs":["get","patch","update"]},{"name":"providerconfigusages","singularName":"providerconfigusage","namespaced":false,"kind":"ProviderConfigUsage","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","provider","keycloak"],"storageVersionHash":"RzJCsFOYJFE="}]}

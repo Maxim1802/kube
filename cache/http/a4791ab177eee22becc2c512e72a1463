@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 1272
+Audit-Id: 78069c54-07b7-40d7-86fe-5edd191f768f
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 24 Jul 2024 09:05:16 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 22afa4d6-32aa-4766-b6ca-fe3c92dd8dda
+X-Kubernetes-Pf-Prioritylevel-Uid: 5bfa8709-8dda-4ebc-8b15-754396a81247
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"apiextensions.crossplane.io/v1","resources":[{"name":"compositionrevisions","singularName":"compositionrevision","namespaced":false,"kind":"CompositionRevision","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["comprev"],"categories":["crossplane"],"storageVersionHash":"tg1R5YBW9q0="},{"name":"compositionrevisions/status","singularName":"","namespaced":false,"kind":"CompositionRevision","verbs":["get","patch","update"]},{"name":"compositeresourcedefinitions","singularName":"compositeresourcedefinition","namespaced":false,"kind":"CompositeResourceDefinition","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["xrd","xrds"],"categories":["crossplane"],"storageVersionHash":"EEe6VTzNhEA="},{"name":"compositeresourcedefinitions/status","singularName":"","namespaced":false,"kind":"CompositeResourceDefinition","verbs":["get","patch","update"]},{"name":"compositions","singularName":"composition","namespaced":false,"kind":"Composition","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["comp"],"categories":["crossplane"],"storageVersionHash":"DlDotJU3jmQ="}]}

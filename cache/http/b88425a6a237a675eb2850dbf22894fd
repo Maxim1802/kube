@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 357
+Audit-Id: 0ddb048b-486e-458e-84c5-3642b2a41bca
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Mon, 17 Jun 2024 08:03:54 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 42a1de80-73c4-4def-ab3a-2b9b0149e1a1
+X-Kubernetes-Pf-Prioritylevel-Uid: 62d2cd26-f2a7-47b7-9a8b-8b492399dda9
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"secrets.crossplane.io/v1alpha1","resources":[{"name":"storeconfigs","singularName":"storeconfig","namespaced":false,"kind":"StoreConfig","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","store"],"storageVersionHash":"ohDVQikdjOc="}]}

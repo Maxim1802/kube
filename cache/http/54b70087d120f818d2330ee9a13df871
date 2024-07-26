@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 595
+Audit-Id: 55a5947f-68a4-43c9-90a2-fb98743586b1
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Mon, 17 Jun 2024 08:03:54 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 42a1de80-73c4-4def-ab3a-2b9b0149e1a1
+X-Kubernetes-Pf-Prioritylevel-Uid: 62d2cd26-f2a7-47b7-9a8b-8b492399dda9
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"openidgroup.keycloak.crossplane.io/v1alpha1","resources":[{"name":"groupmembershipprotocolmappers","singularName":"groupmembershipprotocolmapper","namespaced":false,"kind":"GroupMembershipProtocolMapper","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","managed","keycloak"],"storageVersionHash":"5Kh0v2Kfzg4="},{"name":"groupmembershipprotocolmappers/status","singularName":"","namespaced":false,"kind":"GroupMembershipProtocolMapper","verbs":["get","patch","update"]}]}

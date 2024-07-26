@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 1254
+Audit-Id: ec86a624-cef6-4b15-91b3-4e633a64abb7
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Fri, 21 Jun 2024 05:40:43 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 42a1de80-73c4-4def-ab3a-2b9b0149e1a1
+X-Kubernetes-Pf-Prioritylevel-Uid: 62d2cd26-f2a7-47b7-9a8b-8b492399dda9
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"realm.keycloak.crossplane.io/v1alpha1","resources":[{"name":"requiredactions","singularName":"requiredaction","namespaced":false,"kind":"RequiredAction","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","managed","keycloak"],"storageVersionHash":"1lR70Zjje4A="},{"name":"requiredactions/status","singularName":"","namespaced":false,"kind":"RequiredAction","verbs":["get","patch","update"]},{"name":"keystorersas","singularName":"keystorersa","namespaced":false,"kind":"KeystoreRsa","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","managed","keycloak"],"storageVersionHash":"OBSzEUjL1KQ="},{"name":"keystorersas/status","singularName":"","namespaced":false,"kind":"KeystoreRsa","verbs":["get","patch","update"]},{"name":"realms","singularName":"realm","namespaced":false,"kind":"Realm","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","managed","keycloak"],"storageVersionHash":"QxvTvzLp+J0="},{"name":"realms/status","singularName":"","namespaced":false,"kind":"Realm","verbs":["get","patch","update"]}]}

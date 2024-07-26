@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 137
+Audit-Id: cf639f08-9e48-4d2d-936e-f6d25d155603
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Thu, 23 May 2024 03:52:56 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 42a1de80-73c4-4def-ab3a-2b9b0149e1a1
+X-Kubernetes-Pf-Prioritylevel-Uid: 62d2cd26-f2a7-47b7-9a8b-8b492399dda9
+
+{"kind":"APIVersions","versions":["v1"],"serverAddressByClientCIDRs":[{"clientCIDR":"0.0.0.0/0","serverAddress":"100.111.22.100:6443"}]}

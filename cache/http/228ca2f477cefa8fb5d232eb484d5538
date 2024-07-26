@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 463
+Audit-Id: 27447165-3764-4be5-ab5c-21d5f432152e
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Thu, 20 Jun 2024 04:22:19 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 42a1de80-73c4-4def-ab3a-2b9b0149e1a1
+X-Kubernetes-Pf-Prioritylevel-Uid: 62d2cd26-f2a7-47b7-9a8b-8b492399dda9
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"role.keycloak.crossplane.io/v1alpha1","resources":[{"name":"roles","singularName":"role","namespaced":false,"kind":"Role","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","managed","keycloak"],"storageVersionHash":"697SW0A0Hc0="},{"name":"roles/status","singularName":"","namespaced":false,"kind":"Role","verbs":["get","patch","update"]}]}

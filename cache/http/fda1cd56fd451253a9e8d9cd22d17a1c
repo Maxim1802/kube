@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 731
+Audit-Id: 13deeee6-6f78-4af3-8e32-33f3e12226b0
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Thu, 20 Jun 2024 04:22:19 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 42a1de80-73c4-4def-ab3a-2b9b0149e1a1
+X-Kubernetes-Pf-Prioritylevel-Uid: 62d2cd26-f2a7-47b7-9a8b-8b492399dda9
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"apiextensions.crossplane.io/v1alpha1","resources":[{"name":"environmentconfigs","singularName":"environmentconfig","namespaced":false,"kind":"EnvironmentConfig","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["envcfg"],"categories":["crossplane"],"storageVersionHash":"WVUFy0rCeEo="},{"name":"usages","singularName":"usage","namespaced":false,"kind":"Usage","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane"],"storageVersionHash":"/So5M3N0h5w="},{"name":"usages/status","singularName":"","namespaced":false,"kind":"Usage","verbs":["get","patch","update"]}]}

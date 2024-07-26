@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 1653
+Audit-Id: d9dc69d6-2e2c-4f15-ba16-76e743ce2556
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 17 Jul 2024 08:44:04 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 22afa4d6-32aa-4766-b6ca-fe3c92dd8dda
+X-Kubernetes-Pf-Prioritylevel-Uid: 5bfa8709-8dda-4ebc-8b15-754396a81247
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"pkg.crossplane.io/v1","resources":[{"name":"configurationrevisions","singularName":"configurationrevision","namespaced":false,"kind":"ConfigurationRevision","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","pkgrev"],"storageVersionHash":"CsHBnVsCrIc="},{"name":"configurationrevisions/status","singularName":"","namespaced":false,"kind":"ConfigurationRevision","verbs":["get","patch","update"]},{"name":"providerrevisions","singularName":"providerrevision","namespaced":false,"kind":"ProviderRevision","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","pkgrev"],"storageVersionHash":"N1X5nmzkrBI="},{"name":"providerrevisions/status","singularName":"","namespaced":false,"kind":"ProviderRevision","verbs":["get","patch","update"]},{"name":"providers","singularName":"provider","namespaced":false,"kind":"Provider","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","pkg"],"storageVersionHash":"DFsYvs+gjKQ="},{"name":"providers/status","singularName":"","namespaced":false,"kind":"Provider","verbs":["get","patch","update"]},{"name":"configurations","singularName":"configuration","namespaced":false,"kind":"Configuration","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","pkg"],"storageVersionHash":"WXqRyBDi94o="},{"name":"configurations/status","singularName":"","namespaced":false,"kind":"Configuration","verbs":["get","patch","update"]}]}

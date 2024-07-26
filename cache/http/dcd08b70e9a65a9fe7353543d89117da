@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 1287
+Audit-Id: 5845c012-2dfe-4988-ae93-bd734fc5ea72
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Mon, 17 Jun 2024 08:03:54 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 42a1de80-73c4-4def-ab3a-2b9b0149e1a1
+X-Kubernetes-Pf-Prioritylevel-Uid: 62d2cd26-f2a7-47b7-9a8b-8b492399dda9
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"samlclient.keycloak.crossplane.io/v1alpha1","resources":[{"name":"clientscopes","singularName":"clientscope","namespaced":false,"kind":"ClientScope","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","managed","keycloak"],"storageVersionHash":"8CtK62wb2q0="},{"name":"clientscopes/status","singularName":"","namespaced":false,"kind":"ClientScope","verbs":["get","patch","update"]},{"name":"clients","singularName":"client","namespaced":false,"kind":"Client","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","managed","keycloak"],"storageVersionHash":"H/7TVZq9N90="},{"name":"clients/status","singularName":"","namespaced":false,"kind":"Client","verbs":["get","patch","update"]},{"name":"clientdefaultscopes","singularName":"clientdefaultscopes","namespaced":false,"kind":"ClientDefaultScopes","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","managed","keycloak"],"storageVersionHash":"+V1ihEsUrP8="},{"name":"clientdefaultscopes/status","singularName":"","namespaced":false,"kind":"ClientDefaultScopes","verbs":["get","patch","update"]}]}

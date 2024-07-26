@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 967
+Audit-Id: b7cd7beb-fdcd-4036-85bf-f9ed8aa43f85
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Mon, 20 May 2024 04:46:50 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 42a1de80-73c4-4def-ab3a-2b9b0149e1a1
+X-Kubernetes-Pf-Prioritylevel-Uid: 62d2cd26-f2a7-47b7-9a8b-8b492399dda9
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"argoproj.io/v1alpha1","resources":[{"name":"appprojects","singularName":"appproject","namespaced":true,"kind":"AppProject","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["appproj","appprojs"],"storageVersionHash":"aI45W0YuhVE="},{"name":"applicationsets","singularName":"applicationset","namespaced":true,"kind":"ApplicationSet","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["appset","appsets"],"storageVersionHash":"aaUQCD/yGd0="},{"name":"applicationsets/status","singularName":"","namespaced":true,"kind":"ApplicationSet","verbs":["get","patch","update"]},{"name":"applications","singularName":"application","namespaced":true,"kind":"Application","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["app","apps"],"storageVersionHash":"PVzHEyjMffI="}]}

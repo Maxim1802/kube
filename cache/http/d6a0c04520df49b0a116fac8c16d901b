@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 1272
+Audit-Id: 31724573-778e-4cd1-a336-be285456786f
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 23 Jul 2024 05:40:55 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 22afa4d6-32aa-4766-b6ca-fe3c92dd8dda
+X-Kubernetes-Pf-Prioritylevel-Uid: 5bfa8709-8dda-4ebc-8b15-754396a81247
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"apiextensions.crossplane.io/v1","resources":[{"name":"compositions","singularName":"composition","namespaced":false,"kind":"Composition","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["comp"],"categories":["crossplane"],"storageVersionHash":"DlDotJU3jmQ="},{"name":"compositionrevisions","singularName":"compositionrevision","namespaced":false,"kind":"CompositionRevision","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["comprev"],"categories":["crossplane"],"storageVersionHash":"tg1R5YBW9q0="},{"name":"compositionrevisions/status","singularName":"","namespaced":false,"kind":"CompositionRevision","verbs":["get","patch","update"]},{"name":"compositeresourcedefinitions","singularName":"compositeresourcedefinition","namespaced":false,"kind":"CompositeResourceDefinition","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["xrd","xrds"],"categories":["crossplane"],"storageVersionHash":"EEe6VTzNhEA="},{"name":"compositeresourcedefinitions/status","singularName":"","namespaced":false,"kind":"CompositeResourceDefinition","verbs":["get","patch","update"]}]}

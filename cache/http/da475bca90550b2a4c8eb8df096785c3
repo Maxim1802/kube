@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 332
+Audit-Id: b3fb8eba-8268-4351-b35f-0ee2dc4876c2
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Mon, 17 Jun 2024 08:03:54 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 42a1de80-73c4-4def-ab3a-2b9b0149e1a1
+X-Kubernetes-Pf-Prioritylevel-Uid: 62d2cd26-f2a7-47b7-9a8b-8b492399dda9
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"pkg.crossplane.io/v1alpha1","resources":[{"name":"controllerconfigs","singularName":"controllerconfig","namespaced":false,"kind":"ControllerConfig","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"AKVuItWyJlw="}]}

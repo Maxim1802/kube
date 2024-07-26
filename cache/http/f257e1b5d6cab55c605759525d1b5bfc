@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 486
+Audit-Id: 365b47e5-3c78-45f3-ba53-1b5502cac0f9
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 24 Jul 2024 09:05:16 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 22afa4d6-32aa-4766-b6ca-fe3c92dd8dda
+X-Kubernetes-Pf-Prioritylevel-Uid: 5bfa8709-8dda-4ebc-8b15-754396a81247
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"keycloak.crossplane.io/v1alpha1","resources":[{"name":"storeconfigs","singularName":"storeconfig","namespaced":false,"kind":"StoreConfig","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["crossplane","store","gcp"],"storageVersionHash":"Xz7khH90Kqc="},{"name":"storeconfigs/status","singularName":"","namespaced":false,"kind":"StoreConfig","verbs":["get","patch","update"]}]}
